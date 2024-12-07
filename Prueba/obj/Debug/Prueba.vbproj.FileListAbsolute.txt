@@ -1,0 +1,11 @@
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\bin\Debug\Prueba.xml
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.vbproj.AssemblyReference.cache
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.Resources.resources
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.vbproj.GenerateResource.cache
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.vbproj.CoreCompileInputs.cache
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.xml
+C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.pdb
