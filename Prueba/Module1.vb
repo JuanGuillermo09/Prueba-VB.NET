@@ -1,5 +1,9 @@
 ﻿Module Module1
 
+    ' Variable global.
+
+    Dim numero As Integer = 12
+
     Sub Main()
 
         ' Menjase por CMD.
@@ -10,7 +14,7 @@
 
         ' Variables.
 
-        Dim numero As Integer = 12
+        Dim numeros As Integer = 12
 
         Dim pulgada As Double = 2.54
 
@@ -19,6 +23,18 @@
         Dim cadena As String = "Esto es una cadena"
 
         Dim condicion As Boolean = True ' O False.
+
+        ' Esto No se puede Porque reconoce que es la misma Variable.
+
+        'Dim numero As Integer = 12.    'Dim Numero As Integer = 12.
+
+
+        ' Ambito de las variables.
+
+        Dim numero As Integer = 12
+
+        numero = 24
+
 
         ' Constante.
 
@@ -29,5 +45,11 @@
 
 
     End Sub
+
+    Sub otroMetodo()
+
+        numero = 80
+    End Sub
+
 
 End Module

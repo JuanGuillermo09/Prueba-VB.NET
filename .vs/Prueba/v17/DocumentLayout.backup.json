@@ -14,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,9 +24,9 @@
               "RelativeDocumentMoniker": "Prueba\\Module1.vb",
               "ToolTip": "C:\\Users\\yohn\\Desktop\\Portafolio\\Prueba\\Prueba\\Module1.vb",
               "RelativeToolTip": "Prueba\\Module1.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-12-07T20:00:18.886Z",
+              "WhenOpened": "2024-12-07T20:38:55.09Z",
               "EditorCaption": ""
             }
           ]
