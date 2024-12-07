@@ -1,54 +1,92 @@
 ﻿Module Module1
 
-    ' Variable global.
-
-    Dim numero As Integer = 12
 
     Sub Main()
 
-        ' Menjase por CMD.
+        Dim aritmeticos As Double = 8 + 3
+        Dim aritmetico As Double = 8 - 3
+        Dim aritmetic As Double = 8 * 3
+        Dim aritmeti As Double = 8 / 3
+        Dim aritmet As Double = 8 Mod 3
 
-        Console.WriteLine("Hola mundo")
+        Dim aritme As Double = 8
 
-        Console.ReadKey(True)
+        aritme += 2
 
-        ' Variables.
+        Dim aritm As Double = 8
 
-        Dim numeros As Integer = 12
+        aritm -= 2
 
-        Dim pulgada As Double = 2.54
+        Dim arit As Double = 8
 
-        Dim letra As Char = "a"
+        arit -= 2
 
-        Dim cadena As String = "Esto es una cadena"
-
-        Dim condicion As Boolean = True ' O False.
-
-        ' Esto No se puede Porque reconoce que es la misma Variable.
-
-        'Dim numero As Integer = 12.    'Dim Numero As Integer = 12.
+        arit += 8
 
 
-        ' Ambito de las variables.
+        Console.WriteLine(aritmeticos)
 
-        Dim numero As Integer = 12
+        Console.WriteLine(aritmetico)
 
-        numero = 24
+        Console.WriteLine(aritmetic)
+
+        Console.WriteLine(aritmeti)
+
+        Console.WriteLine(aritmet)
+
+        Console.WriteLine(aritme)
+
+        Console.WriteLine(aritm)
+
+        Console.WriteLine(arit)
 
 
-        ' Constante.
+        Dim condicion As Boolean = -14 > 2
+        Dim condicio As Boolean = -14 < 2
+        Dim condici As Boolean = 2 <= 2
+        Dim condic As Boolean = 2 >= 2
+        Dim condi As Boolean = (2 = 2)
 
-        Const PULGADA As Double = 2.54
+        Dim cond As Boolean = 7 > 4 And 3 > 6
+
+        Dim con As Boolean = 7 > 4 And 3 < 6
+
+        Dim co As Boolean = 7 > 4 Or 3 > 6
+
+        Dim c As Boolean = 7 < 4 Or 3 > 6
+
+        Dim c1 As Boolean = Not 14 > 8
+
+
+
+        Console.WriteLine(condicion)
+
+        Console.WriteLine(condicio)
+
+        Console.WriteLine(condici)
+
+        Console.WriteLine(condic)
+
+        Console.WriteLine(condi)
+
+        Console.WriteLine(cond)
+
+        Console.WriteLine(con)
+
+        Console.WriteLine(co)
+
+        Console.WriteLine(c)
+
+        Console.WriteLine(c1)
 
 
 
 
 
-    End Sub
 
-    Sub otroMetodo()
 
-        numero = 80
+
+
     End Sub
 
 
