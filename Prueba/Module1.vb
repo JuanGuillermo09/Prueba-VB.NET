@@ -3,19 +3,32 @@
 
     Sub Main()
 
-        Dim miNombre As String = "Pedro"
+        'Realizar un programa que muestre por consola si un estudiante con el dinero que tiene ahorrado '
+        'puede pagar la universidad y estudiar, Teniendo en cuenta que el semestre del programa'
+        'que estudia tiene un valor de 600'
 
-        Console.WriteLine(miNombre)
+        Dim estudia As Boolean = False
 
-        Console.Write("Ingrese su nombre ..: ")
+        Console.Write("Ingrese el dinero ahorrado---:")
+        Dim dineroAhorrado As Double = Console.ReadLine()
 
-        Dim Nombre As String = Console.ReadLine()
+        If dineroAhorrado >= 600 Then
 
-        Console.WriteLine(Nombre)
-
-        Console.WriteLine("Bienvenido al sistema sr(a) : " & Nombre)
+            estudia = True
 
 
+        End If
+
+        If estudia = True Then
+
+            Console.WriteLine("El dinero ahorrado sirve para pagar la universidad, por lo tanto puedes estudiar")
+
+        Else
+
+            Console.WriteLine("El dinero ahorrado no sirve para pagar la universidad, por lo tanto no puedes estudiar")
+
+
+        End If
 
     End Sub
 
