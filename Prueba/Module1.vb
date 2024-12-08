@@ -3,36 +3,59 @@
 
     Sub Main()
 
-        'Elaborar un programa de consola en Visual Basic. Net, que ingresado el valor total por teclado de una compra '
-        'realice un descuento de acuerdo a los siguiente: si el valor comprado esta entre 50-100 el descuento es del 5%,'
-        'si esta entre 101-150 el descuento es del 10% y si la compra es mayor a 150 el descuento es del 15%,'
-        'el programa debe mostrar el total de la compra, el total de la compra con el descuento y el descuento'.
+        'Elaborar un programa de consola en Visual Basic. Net, que permita realizar una operacion basica matematica '
+        'entre dos numeros, teniendo en cuenta la opcion del usuario por teclado, siendo 1.Suma, 2.Resta,'
+        '3.Multiplicacion, 4.Divicion y 5.Porcentaje.'
 
 
+        Console.Write("Ingrese 1.Suma, 2.Resta, 3.Multiplicacion, 4.Divicion y 5.Porcentaje---:")
+        Dim opcion As Integer = Console.ReadLine()
 
-        Console.Write("Ingrese el valor total de la compra---:")
-        Dim valorCompra As Double = Console.ReadLine()
+        Dim numero1, numero2 As Double
 
-        Dim descuento As Double = 0
+        Select Case opcion
+
+            Case 1 : Console.Write("Ingrese el primer numero a sumar---:")
+                numero1 = Console.ReadLine()
+                Console.Write("Ingrese el segundo numero a sumar---:")
+                numero2 = Console.ReadLine()
+
+                Console.WriteLine("La suma de los numeros es---:" & (numero1 + numero2))
+
+            Case 2 : Console.Write("Ingrese el primer numero a restar---:")
+                numero1 = Console.ReadLine()
+                Console.Write("Ingrese el segundo numero a restar---:")
+                numero2 = Console.ReadLine()
+
+                Console.WriteLine("La resta de los numeros es---:" & (numero1 - numero2))
+
+            Case 3 : Console.Write("Ingrese el multiplicando---:")
+                numero1 = Console.ReadLine()
+                Console.Write("Ingrese el multiplicador---:")
+                numero2 = Console.ReadLine()
+
+                Console.WriteLine("La multiplicacion de los numeros es---:" & (numero1 * numero2))
+
+            Case 4 : Console.Write("Ingrese el dividendo---:")
+                numero1 = Console.ReadLine()
+                Console.Write("Ingrese el divisor---:")
+                numero2 = Console.ReadLine()
+
+                Console.WriteLine("La division de los numeros es---:" & (numero1 / numero2))
+
+            Case 5 : Console.Write("Ingrese el numero a sacar el porcentaje---:")
+                numero1 = Console.ReadLine()
+                Console.Write("Ingrese el porcentaje---:")
+                numero2 = Console.ReadLine()
+
+                Console.WriteLine("El " & numero2 & "% de " & numero1 & " es---:" & (numero1 * numero2) / 100)
 
 
-        If valorCompra >= 50 And valorCompra <= 100 Then
+            Case Else
+                Console.WriteLine("La opcion ingresada no es valida")
 
-            descuento = valorCompra * 0.05
+        End Select
 
-        ElseIf valorCompra > 100 And valorCompra <= 150 Then
-
-            descuento = valorCompra * 0.1
-
-        ElseIf valorCompra > 150 Then
-
-            descuento = valorCompra * 0.15
-
-        End If
-
-        Console.WriteLine("El valor total de la compra sin descuento es ---: " & valorCompra)
-        Console.WriteLine("El valor total de la compra con descuento es ---: " & valorCompra - descuento)
-        Console.WriteLine("El valor descontado en la compra es ---: " & descuento)
 
     End Sub
 
