@@ -4,39 +4,32 @@
 
 
 
-        'Crear un programa que lea un numero N entero positivo de cualquier numero de digito, '
-        'calcule suma de sus digitos y que imprima en pantalla el numero leido y la'
-        'suma de sus digitos. Ejemplo: N = 89563 suma = 31'
+        'si es false el bucle se repite'
 
-        Console.Write("Ingrese el digito-->")
-        Dim digito As Integer = Console.ReadLine()
+        Dim numero As Integer
 
-        Dim sumaDigitos As Integer = 0
+        Do
+            Console.Write("Ingrese un numero-->")
+            numero = Console.ReadLine()
 
-        While digito > 0
+            Console.WriteLine("Este es el mejor curso de Visual Basec. Net")
 
-            sumaDigitos = sumaDigitos + digito Mod 10
-
-            digito = Math.Truncate(digito / 10)
-
-        End While
-
-        Console.WriteLine("La suma de los digitos es-->" & sumaDigitos)
+        Loop Until numero <> 0
 
 
 
-        '  Ejemplo
+        'si es true el bucle se repite'
 
-        ' Dim numero As Integer = 1
+        Dim numer As Integer
 
-        '  While numero <> 0
+        Do
+            Console.Write("Ingrese un numero-->")
+            numer = Console.ReadLine()
 
-        ' Console.WriteLine("Estamos en el bucle while")
+            Console.WriteLine("Este es el mejor curso de Visual Basec. Net")
 
-        ' Console.Write("Ingrese un nuevo numero para la variable-->")
-        ' numero = Console.ReadLine() 
+        Loop While numer <> 0
 
-        ' End While
 
     End Sub
 
