@@ -2,33 +2,41 @@
 
     Sub Main()
 
-        For i = 1 To 3 Step 1
 
-            Console.WriteLine("Este es el mejor curso de vb. net")
 
-        Next
+        'Crear un programa que lea un numero N entero positivo de cualquier numero de digito, '
+        'calcule suma de sus digitos y que imprima en pantalla el numero leido y la'
+        'suma de sus digitos. Ejemplo: N = 89563 suma = 31'
 
-        'Hacer un algoritmo que imprima los primeros 20 terminos de la siguiente serie '
-        '1, 3, 6, 10, 15, 21, 28, ....... . .'
-        ''
+        Console.Write("Ingrese el digito-->")
+        Dim digito As Integer = Console.ReadLine()
 
-        Dim suma As Integer = 1
+        Dim sumaDigitos As Integer = 0
 
-        For i = 2 To 20 Step 1
+        While digito > 0
 
-            If i <> 20 Then
+            sumaDigitos = sumaDigitos + digito Mod 10
 
-                Console.Write(suma & " , ")
+            digito = Math.Truncate(digito / 10)
 
-            Else
+        End While
 
-                Console.WriteLine(suma)
+        Console.WriteLine("La suma de los digitos es-->" & sumaDigitos)
 
-            End If
 
-            suma = suma + i
 
-        Next
+        '  Ejemplo
+
+        ' Dim numero As Integer = 1
+
+        '  While numero <> 0
+
+        ' Console.WriteLine("Estamos en el bucle while")
+
+        ' Console.Write("Ingrese un nuevo numero para la variable-->")
+        ' numero = Console.ReadLine() 
+
+        ' End While
 
     End Sub
 
