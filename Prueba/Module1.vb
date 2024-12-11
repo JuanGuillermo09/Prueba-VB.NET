@@ -2,57 +2,73 @@
 
     Sub Main()
 
-        'Valores del array nombres de la presentacion: Maria, Pedro, Daniela, Juan, Carlos, Camila '
+        'Valores de la matrioz de la presentacion: 25, 13, 84, 6, 22, 39 '
+
+        '1mera Forma para almacenar datos a la matriz'
+
+        Dim numeros = New Integer(,) {{25, 13, 84}, {6, 22, 39}}
 
 
 
-        ' 1mra forma de almacenar datos en una array'
+        '2mera Forma para almacenar datos a la matriz'
 
-        Dim nombres = New String() {"Maria", "Pedro", "Daniela", "Juan", "Carlos", "Camila"}
+        Dim numero(2, 3) As Integer
 
-        ' 2mra forma de almacenar datos en una array'
+        For filas = 0 To 1 Step 1
 
-        Dim nombre(6) As String
+            For columna = 0 To 2 Step 1
 
-        For i = 0 To nombre.Length - 1 Step 1
+                Console.Write("Ingrese el numero en la posicion " & filas & " , " & columna & "-----)")
+                numero(filas, columna) = Console.ReadLine()
 
-            Console.Write("Ingrese el nombre en la posicion " & i & " -----)")
-
-            nombre(i) = Console.ReadLine()
-
-        Next
-
-        ' 3mra forma de almacenar datos en una array'
-
-        Dim nombr(6) As String
-
-        nombr(0) = "Maria"
-        nombr(1) = "Pedro"
-        nombr(2) = "Daniela"
-        nombr(3) = "Juan"
-        nombr(4) = "Carlos"
-        nombr(5) = "Camila"
-
-        Console.WriteLine(nombr(3))
-
-        Dim nomb As String = nombr(4)
-
-        Console.WriteLine(nombr)
-
-        For i = 0 To nombr.Length - 1 Step 1
-
-            Console.WriteLine(nombr(i))
-
-        Next
-
-        For Each nom As String In nombr
-
-            Console.WriteLine(nom)
+            Next
 
         Next
 
 
 
+        '3mera Forma para almacenar datos a la matriz'
+
+        Dim numer(2, 3) As Integer
+
+        numer(0, 0) = 25
+        numer(0, 1) = 13
+        numer(0, 2) = 84
+        numer(1, 0) = 6
+        numer(1, 1) = 22
+        numer(1, 2) = 39
+
+        Console.WriteLine(numer(0, 2))
+
+        Dim num As Integer = numer(1, 1)
+
+        Console.WriteLine(num)
+
+        For i = 0 To 1 Step 1
+
+            For j = 0 To 2 Step 1
+
+                Console.WriteLine(numer(i, j))
+
+            Next
+
+        Next
+
+        For Each nu As Integer In numer
+
+            Console.WriteLine(nu)
+
+        Next
+
+        For i = 0 To numer.GetUpperBound(0) - 1 Step 1
+
+            For j = 0 To numer.GetUpperBound(1) - 1 Step 1
+
+                Console.WriteLine(numer(i, j))
+
+            Next
+
+        Next
 
 
 
