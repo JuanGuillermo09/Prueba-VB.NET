@@ -13,13 +13,19 @@
         Console.Write("Ingrese el numero a buscar ---)")
         edad = Console.ReadLine()
 
+        Dim contador As Integer = 0
+
         For i = 0 To edades.Length - 1 And encontrado = False Step 1
+
+            contador += 1
 
             If edad = edades(i) Then
 
                 indice = i
 
                 encontrado = True
+
+                Exit For
 
             End If
 
@@ -28,6 +34,7 @@
         If encontrado = True Then
 
             Console.WriteLine("El valor buscado se encuentra en la posicion: " & indice)
+            Console.WriteLine(contador)
 
         Else
 
