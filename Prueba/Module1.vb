@@ -2,33 +2,32 @@
 
     Sub Main()
 
-        Dim vector(2) As Integer
-        Dim matriz(1, 1) As Integer
+        Dim numeros = New Integer() {233, 301, 192, 169, 215}
 
-        vector(0) = 15
-        vector(1) = 30
-        vector(2) = 45
+        Dim menor As Integer = numeros(0)
 
-        matriz(0, 0) = 20
-        matriz(0, 1) = 40
-        matriz(1, 0) = 60
-        matriz(1, 1) = 80
+        Dim posMenor As Integer = 0
 
-        For Each num As Integer In vector
+        For i = 1 To numeros.Length.ToString - 1 Step 1
+
+            If numeros(i) < menor Then
+
+                menor = numeros(i + 1)
+                posMenor = i
+
+            End If
+
+        Next
+
+        Dim aux As Integer = numeros(0)
+        numeros(0) = numeros(posMenor)
+        numeros(posMenor) = aux
+
+        For Each num As Integer In numeros
 
             Console.Write(num & " ")
 
         Next
-
-        Console.WriteLine("")
-
-        For Each num As Integer In matriz
-
-            Console.Write(num & " ")
-
-        Next
-
-
 
     End Sub
 
