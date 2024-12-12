@@ -2,73 +2,59 @@
 
     Sub Main()
 
-        Dim numeros = New Integer() {14, 28, 56}
+        ' Buscar la posicion de un dato'
 
-        Dim arrayCopia(3) As Integer
+        Dim edades = New Integer() {25, 21, 43, 58, 34}
 
-        For i = 0 To 2 Step 1
+        Dim edad, indice As Integer
 
-            arrayCopia(i) = numeros(i)
+        Dim encontrado As Boolean = False
 
-        Next
+        Console.Write("Ingrese el numero a buscar ---)")
+        edad = Console.ReadLine()
 
-        For i = 0 To 2 Step 1
+        For i = 0 To edades.Length - 1 And encontrado = False Step 1
 
-            Console.Write(arrayCopia(i) & " ")
+            If edad = edades(i) Then
 
-        Next
+                indice = i
 
+                encontrado = True
 
-
-        Dim numero = New Integer() {14, 28, 56}
-
-        Dim arrayCopi(2) As Integer
-
-        For i = 0 To 2 Step 1
-
-            arrayCopi(i) = numero(i)
+            End If
 
         Next
 
-        For i = 0 To arrayCopi.Length - 1 Step 1
+        If encontrado = True Then
 
-            Console.Write(arrayCopi(i) & " ")
+            Console.WriteLine("El valor buscado se encuentra en la posicion: " & indice)
 
-        Next
+        Else
+
+            Console.WriteLine("El valor a buscar no fue encontrado")
+
+        End If
 
 
-        Dim matrizOrigen = New Integer(,) {{14, 28}, {56, 70}}
 
-        Dim matrizCopia(2, 2) As Integer
 
-        For i = 0 To 1 Step 1
+        'Buscar numeros menores de 50 '
 
-            For j = 0 To 1 Step 1
+        Dim edade = New Integer() {25, 21, 43, 58, 34}
 
-                matrizCopia(i, j) = matrizOrigen(i, j)
+        Dim contadora As Integer = 0
 
-            Next
+        For i = 0 To edade.Length - 1 Step 1
 
-        Next
+            If edade(i) < 50 Then
 
-        For i = 0 To 1 Step 1
+                contadora += 1
 
-            For j = 0 To 1 Step 1
-
-                Console.Write(matrizCopia(i, j) & " ")
-
-            Next
+            End If
 
         Next
 
-
-
-
-
-
-
-
-
+        Console.WriteLine("El numero de personas cuya edad es menor a 50 es: " & contadora)
 
     End Sub
 
