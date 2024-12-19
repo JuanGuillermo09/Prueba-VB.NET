@@ -9,3 +9,14 @@ C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.vbproj.CoreCompi
 C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.exe
 C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.xml
 C:\Users\yohn\Desktop\Portafolio\Prueba\Prueba\obj\Debug\Prueba.pdb
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\bin\Debug\Prueba.exe
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\bin\Debug\Prueba.pdb
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\bin\Debug\Prueba.xml
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\obj\Debug\Prueba.vbproj.AssemblyReference.cache
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\obj\Debug\Prueba.Resources.resources
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\obj\Debug\Prueba.vbproj.GenerateResource.cache
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\obj\Debug\Prueba.vbproj.CoreCompileInputs.cache
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\obj\Debug\Prueba.exe
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\obj\Debug\Prueba.xml
+C:\Users\Henry\Desktop\Portafolio\Prueba-VB.NET\Prueba\obj\Debug\Prueba.pdb

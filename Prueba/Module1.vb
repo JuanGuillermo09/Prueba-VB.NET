@@ -2,66 +2,53 @@
 
     Sub Main()
 
-        ' Buscar la posicion de un dato'
+        Dim numeros = New Integer() {1, 2, 3, 4}
 
-        Dim edades = New Integer() {25, 21, 43, 58, 34}
+        For Each num As Integer In numeros
 
-        Dim edad, indice As Integer
-
-        Dim encontrado As Boolean = False
-
-        Console.Write("Ingrese el numero a buscar ---)")
-        edad = Console.ReadLine()
-
-        Dim contador As Integer = 0
-
-        For i = 0 To edades.Length - 1 And encontrado = False Step 1
-
-            contador += 1
-
-            If edad = edades(i) Then
-
-                indice = i
-
-                encontrado = True
-
-                Exit For
-
-            End If
+            Console.Write(num & "")
 
         Next
 
-        If encontrado = True Then
+        ReDim Preserve numeros(5)
 
-            Console.WriteLine("El valor buscado se encuentra en la posicion: " & indice)
-            Console.WriteLine(contador)
+        numeros(4) = 5
+        numeros(5) = 6
 
-        Else
+        Console.WriteLine(" ")
 
-            Console.WriteLine("El valor a buscar no fue encontrado")
+        For Each num As Integer In numeros
 
-        End If
-
-
-
-
-        'Buscar numeros menores de 50 '
-
-        Dim edade = New Integer() {25, 21, 43, 58, 34}
-
-        Dim contadora As Integer = 0
-
-        For i = 0 To edade.Length - 1 Step 1
-
-            If edade(i) < 50 Then
-
-                contadora += 1
-
-            End If
+            Console.Write(num & "")
 
         Next
 
-        Console.WriteLine("El numero de personas cuya edad es menor a 50 es: " & contadora)
+
+
+        Dim numero = New Integer(,) {{1, 2}, {3, 4}}
+
+        ReDim numero(3, 3)
+
+        numero(0, 0) = 11
+        numero(0, 1) = 22
+        numero(0, 2) = 33
+        numero(1, 0) = 44
+        numero(1, 1) = 55
+        numero(1, 2) = 66
+        numero(2, 0) = 77
+        numero(2, 1) = 88
+        numero(2, 2) = 99
+
+        For i = 0 To 2 Step 1
+
+            For j = 0 To 2 Step 1
+
+                Console.Write(numero(i, j) & " ")
+            Next
+
+        Next
+
+
 
     End Sub
 
