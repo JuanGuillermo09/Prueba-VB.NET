@@ -1,21 +1,20 @@
 ﻿Module Module1
 
-    'Crear un procedimiento sub que permita mostrar un saludo a una persona, el nombre de la persona debe ser'
-    'pasado por parametro ' 
 
     Sub Main()
 
-        Console.WriteLine("Mensaje del procedimiento main")
+        Dim numero As Integer = 5
 
-        saludo("Maria")
-        saludo("Pedro")
+        cambiarNumeroVariable(numero, 45)
+
+        Console.WriteLine(numero)
 
     End Sub
 
 
-    Sub saludo(nom As String)
+    Sub cambiarNumeroVariable(ByRef num As Integer, numNuevo As Integer)
 
-        Console.WriteLine("Hola " & nom & " bienvenido(a) al mejor curso de Visual Basic. NET")
+        num = numNuevo
 
     End Sub
 
