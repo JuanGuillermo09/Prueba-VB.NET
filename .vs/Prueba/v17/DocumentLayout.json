@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Henry\\Desktop\\Portafolio\\Prueba-VB.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{537C96E7-D40A-4813-BA96-B973F1A60090}|Prueba\\Prueba.vbproj|c:\\users\\henry\\desktop\\portafolio\\prueba-vb.net\\prueba\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{537C96E7-D40A-4813-BA96-B973F1A60090}|Prueba\\Prueba.vbproj|c:\\users\\henry\\desktop\\portafolio\\prueba-vb.net\\prueba\\aireacondicionado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{537C96E7-D40A-4813-BA96-B973F1A60090}|Prueba\\Prueba.vbproj|solutionrelative:prueba\\aireacondicionado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537C96E7-D40A-4813-BA96-B973F1A60090}|Prueba\\Prueba.vbproj|C:\\Users\\Henry\\Desktop\\Portafolio\\Prueba-VB.NET\\prueba\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{537C96E7-D40A-4813-BA96-B973F1A60090}|Prueba\\Prueba.vbproj|solutionrelative:prueba\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AireAcondicionado.vb",
+              "DocumentMoniker": "C:\\Users\\Henry\\Desktop\\Portafolio\\Prueba-VB.NET\\Prueba\\AireAcondicionado.vb",
+              "RelativeDocumentMoniker": "Prueba\\AireAcondicionado.vb",
+              "ToolTip": "C:\\Users\\Henry\\Desktop\\Portafolio\\Prueba-VB.NET\\Prueba\\AireAcondicionado.vb",
+              "RelativeToolTip": "Prueba\\AireAcondicionado.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-20T17:01:16.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Module1.vb",
               "DocumentMoniker": "C:\\Users\\Henry\\Desktop\\Portafolio\\Prueba-VB.NET\\Prueba\\Module1.vb",
               "RelativeDocumentMoniker": "Prueba\\Module1.vb",
               "ToolTip": "C:\\Users\\Henry\\Desktop\\Portafolio\\Prueba-VB.NET\\Prueba\\Module1.vb",
               "RelativeToolTip": "Prueba\\Module1.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-12-07T20:38:55.09Z",
               "EditorCaption": ""
