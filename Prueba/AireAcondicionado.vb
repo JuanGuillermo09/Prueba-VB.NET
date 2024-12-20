@@ -7,7 +7,7 @@
     Public btu As Integer
     Public temperatura As Integer
 
-    Public Sub subirTemperatuora()
+    Public Sub subirTemperatura()
 
         temperatura += 1
 
@@ -24,8 +24,5 @@
         Return temperatura
 
     End Function
-
-
-
 
 End Class
