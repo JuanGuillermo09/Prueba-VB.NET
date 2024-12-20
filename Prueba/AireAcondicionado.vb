@@ -1,11 +1,11 @@
 ﻿Public Class AireAcondicionado
 
-    Public marca As String
-    Public modelo As String
-    Public color As String
-    Public voltaje As Integer
-    Public btu As Integer
-    Public temperatura As Integer
+    Private marca As String
+    Private modelo As String
+    Private color As String
+    Private voltaje As Integer
+    Private btu As Integer
+    Private temperatura As Integer
 
     Public Sub subirTemperatura()
 
